@@ -22,4 +22,12 @@ describe('Test change binary', () => {
       bin2dec(actual);
     }).toThrowError();
   });
+
+  test('a not binary 12351 is a error', () => {
+    const actual = 12351;
+
+    expect(() => {
+      bin2dec(actual);
+    }).toThrowError();
+  });
 });

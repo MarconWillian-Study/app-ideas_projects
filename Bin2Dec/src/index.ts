@@ -2,7 +2,11 @@ function bin2dec(binaryInput: string | number) {
   const binary = String(binaryInput);
 
   if (binary.length > 8) {
-    throw new Error('Number is bigger with 8 length');
+    throw new Error(`${binary} is bigger with 8 length`);
+  }
+
+  if (/[^0-1]/g.test(binary)) {
+    throw new Error(`${binary} not is a binary number`);
   }
 
   let decimal = 0;
