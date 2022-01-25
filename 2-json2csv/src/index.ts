@@ -1,4 +1,4 @@
-import { convertJson2Object, IObjectResponse } from './convertJson2Object';
+import { convertJson2Object } from './convertJson2Object';
 
 function json2csv(json: string) {
   const objet = convertJson2Object(json);
@@ -11,15 +11,31 @@ function json2csv(json: string) {
     throw new Error('Object not is a array');
   }
 
-  const labels = Object.keys(objet[1]);
+  const labels = [] as string[];
 
-  const values = objet.reduce((accumulator, item) => {
-    const valuesLine = Object.values(item).join(',');
-    accumulator.push(valuesLine);
-    return accumulator;
-  }, [] as string[]);
+  objet.forEach(item => {
+    Object.keys(item).forEach(key => {
+      if (!labels.includes(key)) {
+        labels.push(key);
+      }
+    });
+  });
 
-  return [Object.values(labels).join(','), ...values].join('\n');
+  const lines = [] as string[];
+
+  objet.forEach(item => {
+    const line = [] as string[];
+    labels.forEach(key => {
+      if (item[key]) {
+        line.push(String(item[key]));
+      } else {
+        line.push('');
+      }
+    });
+    lines.push(line.join(','));
+  });
+
+  return [labels.join(','), ...lines].join('\n');
 }
 
 export { json2csv };
