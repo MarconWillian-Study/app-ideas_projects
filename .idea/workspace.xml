@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4559b82b-0e86-47be-a897-3f7d987fac46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Bin2Dec/.github/workflows/codeql-analysis.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.idea/2-csv2json.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/test/index.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-json2csv/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bin2Dec/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bin2Dec/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv2json/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23nlc7kIqLmM2TnShQvtZoZGjYP" />
   <component name="ProjectViewState">
@@ -21,7 +46,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2-json2csv" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/2-json2csv/node_modules/jest" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/2-json2csv/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2-json2csv" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test change json" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/2-json2csv/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/2-json2csv" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/2-json2csv/test/index.spec.ts" />
+      <test-names>
+        <test-name value="Test change json" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Test change json" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,10 +87,22 @@
       <option name="presentableId" value="Default" />
       <updated>1642377808509</updated>
       <workItem from="1642377809667" duration="12000" />
+      <workItem from="1643076848244" duration="876000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
