@@ -1,7 +1,7 @@
 {
-  "name": "@marconwillian/bin2dec",
-  "version": "1.0.0",
-  "description": "Fast helper to create a cli",
+  "name": "@themarkwill/bin2dec",
+  "version": "1.0.1",
+  "description": "Lib and CLI to convert bin to dec.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
@@ -43,6 +43,6 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "cowmand": "^0.3.1"
+    "cowmand": "^0.4.23"
   }
 }
