@@ -1,6 +1,6 @@
 {
-  "name": "@marconwillian/csv2json",
-  "version": "1.0.0",
+  "name": "@themarkwill/csv2json",
+  "version": "1.0.1",
   "description": "Lib to convert CSV to Json",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
