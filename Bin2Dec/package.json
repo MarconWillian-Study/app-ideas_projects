@@ -1,6 +1,6 @@
 {
   "name": "@themarkwill/bin2dec",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lib and CLI to convert bin to dec.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
